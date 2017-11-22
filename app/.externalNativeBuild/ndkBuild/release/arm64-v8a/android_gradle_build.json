@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "F:\\baidu\\SerialPort\\app\\src\\main\\jni\\Android.mk",
+    "F:\\baidu\\SerialPort\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "E:\\android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dF:\\baidu\\SerialPort\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dF:\\baidu\\SerialPort\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dF:\\baidu\\SerialPort\\app\\.externalNativeBuild\\ndkBuild\\release\\obj NDK_LIBS_OUT\u003dF:\\baidu\\SerialPort\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "serial_port-release-arm64-v8a": {
+      "buildCommand": "E:\\android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dF:\\baidu\\SerialPort\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dF:\\baidu\\SerialPort\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dF:\\baidu\\SerialPort\\app\\.externalNativeBuild\\ndkBuild\\release\\obj NDK_LIBS_OUT\u003dF:\\baidu\\SerialPort\\app\\build\\intermediates\\ndkBuild\\release\\lib F:\\baidu\\SerialPort\\app\\.externalNativeBuild\\ndkBuild\\release\\obj/local/arm64-v8a/libserial_port.so",
+      "toolchain": "toolchain-arm64-v8a",
+      "abi": "arm64-v8a",
+      "artifactName": "serial_port",
+      "files": [
+        {
+          "src": "F:\\baidu\\SerialPort\\app\\src\\main\\jni\\SerialPort.c",
+          "flags": "\"-gcc-toolchain\" \"E:/android/SDK/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64\" \"-target\" \"aarch64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fpic\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-IF:/baidu/SerialPort/app/src/main/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"E:/android/SDK/ndk-bundle/build//../platforms/android-21/arch-arm64\""
+        }
+      ],
+      "output": "F:\\baidu\\SerialPort\\app\\.externalNativeBuild\\ndkBuild\\release\\obj\\local\\arm64-v8a\\libserial_port.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-arm64-v8a": {
+      "cCompilerExecutable": "E:\\android\\SDK\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

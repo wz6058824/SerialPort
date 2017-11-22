@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "E:\\studio\\SerialPort\\serial\\src\\main\\jni\\Android.mk",
+    "E:\\studio\\SerialPort\\serial\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "G:\\android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\studio\\SerialPort\\serial\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\studio\\SerialPort\\serial\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi NDK_ALL_ABIS\u003darmeabi NDEBUG\u003d0 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dE:\\studio\\SerialPort\\serial\\.externalNativeBuild\\ndkBuild\\release\\obj NDK_LIBS_OUT\u003dE:\\studio\\SerialPort\\serial\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "serial_port-release-armeabi": {
+      "buildCommand": "G:\\android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\studio\\SerialPort\\serial\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\studio\\SerialPort\\serial\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi NDK_ALL_ABIS\u003darmeabi NDEBUG\u003d0 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dE:\\studio\\SerialPort\\serial\\.externalNativeBuild\\ndkBuild\\release\\obj NDK_LIBS_OUT\u003dE:\\studio\\SerialPort\\serial\\build\\intermediates\\ndkBuild\\release\\lib E:\\studio\\SerialPort\\serial\\.externalNativeBuild\\ndkBuild\\release\\obj/local/armeabi/libserial_port.so",
+      "toolchain": "toolchain-armeabi",
+      "abi": "armeabi",
+      "artifactName": "serial_port",
+      "files": [
+        {
+          "src": "E:\\studio\\SerialPort\\serial\\src\\main\\jni\\SerialPort.c",
+          "flags": "\"-gcc-toolchain\" \"G:/android/SDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv5te-none-linux-androideabi17\" \"-march\u003darmv5te\" \"-mtune\u003dxscale\" \"-msoft-float\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-IE:/studio/SerialPort/serial/src/main/jni\" \"-DANDROID\" \"-D__ANDROID_API__\u003d17\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"G:/android/SDK/ndk-bundle/build//../sysroot\" \"-isystem\" \"G:/android/SDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi\""
+        }
+      ],
+      "output": "E:\\studio\\SerialPort\\serial\\.externalNativeBuild\\ndkBuild\\release\\obj\\local\\armeabi\\libserial_port.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi": {
+      "cCompilerExecutable": "G:\\android\\SDK\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

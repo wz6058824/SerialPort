@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "E:\\studio\\SerialPort\\app\\src\\main\\jni\\Android.mk",
+    "E:\\studio\\SerialPort\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "G:\\android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\studio\\SerialPort\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\studio\\SerialPort\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDEBUG\u003d0 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dE:\\studio\\SerialPort\\app\\.externalNativeBuild\\ndkBuild\\release\\obj NDK_LIBS_OUT\u003dE:\\studio\\SerialPort\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "serial_port-release-x86": {
+      "buildCommand": "G:\\android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\studio\\SerialPort\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\studio\\SerialPort\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDEBUG\u003d0 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dE:\\studio\\SerialPort\\app\\.externalNativeBuild\\ndkBuild\\release\\obj NDK_LIBS_OUT\u003dE:\\studio\\SerialPort\\app\\build\\intermediates\\ndkBuild\\release\\lib E:\\studio\\SerialPort\\app\\.externalNativeBuild\\ndkBuild\\release\\obj/local/x86/libserial_port.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "serial_port",
+      "files": [
+        {
+          "src": "E:\\studio\\SerialPort\\app\\src\\main\\jni\\SerialPort.c",
+          "flags": "\"-gcc-toolchain\" \"G:/android/SDK/ndk-bundle/build//../toolchains/x86-4.9/prebuilt/windows-x86_64\" \"-target\" \"i686-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-IE:/studio/SerialPort/app/src/main/jni\" \"-DANDROID\" \"-D__ANDROID_API__\u003d17\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-mstackrealign\" \"--sysroot\" \"G:/android/SDK/ndk-bundle/build//../sysroot\" \"-isystem\" \"G:/android/SDK/ndk-bundle/build//../sysroot/usr/include/i686-linux-android\""
+        }
+      ],
+      "output": "E:\\studio\\SerialPort\\app\\.externalNativeBuild\\ndkBuild\\release\\obj\\local\\x86\\libserial_port.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86": {
+      "cCompilerExecutable": "G:\\android\\SDK\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

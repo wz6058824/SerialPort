@@ -1,0 +1,11 @@
+{
+  "buildFiles": [
+    "E:\\studio\\SerialPort\\app\\src\\main\\jni\\Android.mk",
+    "E:\\studio\\SerialPort\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [],
+  "libraries": {},
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": []
+}
